@@ -1,13 +1,15 @@
 import Container from "@/components/Container";
+import HomeBanner from "@/components/HomeBanner";
 import { Button } from "@/components/ui/button";
+import Navbar from "./Navbar";
 
 export default function Home() {
   return (
     <div>
-      <Container>
-        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi nam amet saepe voluptatibus dolore vel voluptatum ullam rerum voluptas maxime accusamus velit necessitatibus labore eius similique, molestiae iure ea pariatur?</h2>
-
-      </Container>
+      <Navbar />
+      {/* <Container>
+        <HomeBanner />
+      </Container> */}
     </div>
   );
 }
