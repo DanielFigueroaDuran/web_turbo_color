@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -113,6 +118,40 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+  }
+
+  @layer utilities {
+    @keyframes showContent {
+      to {
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+      }
+    }
+
+    .animate-show-content {
+      animation: showContent 0.5s 0.7s ease-in-out forwards;
+    }
+
+    .bg-slider {
+      background-image: linear-gradient(to top, #000 10%, transparent);
+    }
+
+    .bg-thumbnails {
+      background-image: linear-gradient(to top, #000 2%, transparent);
+    }
+
+    .animation-delay-2 {
+      animation-delay: 500ms;
+    }
+
+    .animation-delay-5 {
+      animation-delay: 1000ms;
+    }
+
+    .animation-delay-6 {
+      animation-delay: 1500ms;
+    }
   }
 
   body {

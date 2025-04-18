@@ -1,5 +1,6 @@
 import { FaAmazonPay, FaPaypal, FaShopify, FaSlack, FaTrello } from "react-icons/fa"
 
+
 export const companiesData = [
       {
             id: 1,

@@ -19,9 +19,9 @@ const Navbar = () => {
 
       return (
             <>
-                  <header className="border-b border-b-gray-400 py-4">
+                  <header className="fixed w-full left-0 top-0 z-50 bg-white border-b border-b-gray-400 py-4">
                         {/* Desktop navigation section */}
-                        <nav className="container flex items-center justify-between py-4 px-4">
+                        <nav className="container mx-auto flex items-center justify-between p-5 lg:py-5 lg:px-0">
                               {/* Nav Logo */}
                               <div className="px-6 h-16">
                                     <Link href='/' className="flex items-center">
