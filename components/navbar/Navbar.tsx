@@ -1,12 +1,10 @@
 "use client"
 import { useState } from "react"
 import Link from "next/link"
-import { AlignJustify, X } from 'lucide-react';
+import { MdCancel } from "react-icons/md";
+import { RiMenuUnfoldLine } from "react-icons/ri";
 import Logo from "@/components/Logo";
-import { headerData } from '../../contants/index';
-import { usePathname } from 'next/navigation';
 import HeaderMenu from "@/components/HeaderMenu";
-
 
 const Navbar = () => {
       const [isClick, setIsClick] = useState(false);
@@ -23,7 +21,7 @@ const Navbar = () => {
             <>
                   <header className="border-b border-b-gray-400 py-4">
                         {/* Desktop navigation section */}
-                        <nav className="container flex items-center justify-between py-4">
+                        <nav className="container flex items-center justify-between py-4 px-4">
                               {/* Nav Logo */}
                               <div className="px-6 h-16">
                                     <Link href='/' className="flex items-center">
@@ -42,10 +40,10 @@ const Navbar = () => {
                               <div className="md:hidden flex items-center">
                                     {!isClick ?
                                           (
-                                                <AlignJustify size={25} onClick={toggleNavbar} />
+                                                <RiMenuUnfoldLine size={30} onClick={toggleNavbar} />
                                           )
                                           : (
-                                                <X size={25} onClick={toggleNavbar} />
+                                                < MdCancel size={35} onClick={toggleNavbar} />
                                           )
                                     }
                               </div>
@@ -59,22 +57,6 @@ const Navbar = () => {
                               />
                         </div>
                   </header>
-
-
-                  {/* <div className={`    `}>
-                        {headerData?.map((data) => {
-                              return (
-                                    <li
-                                          className='text-lg font-medium hover:border-2 border-black px-3 rounded-full transition-all'
-                                          key={data.title}
-                                          onClick={closeMenu}
-                                    >
-                                          <Link href={data.href} >{data.title}</Link>
-                                    </li>
-                              )
-                        })
-                        }
-                  </div> */}
             </>
       )
 }

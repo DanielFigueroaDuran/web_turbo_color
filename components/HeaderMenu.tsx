@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link';
-import { headerData } from '../contants/index';
+import { headerData } from '../utils/index';
 
 type FuntionTypeProps = {
       closeMenu?: () => void
@@ -9,7 +9,6 @@ type FuntionTypeProps = {
 const HeaderMenu = ({ closeMenu }: FuntionTypeProps) => {
 
       return (
-            // <div className='hidden md:inline-flex  w-1/3 items-center gap-5 text-sm capitalize font-semibold'>
             <>
                   {headerData?.map((data) => {
                         return (

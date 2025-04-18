@@ -1,12 +1,12 @@
 "use client"
-import Container from "@/components/Container";
-import { Button } from "@/components/ui/button";
-import Navbar from "../components/navbar/Navbar";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Navbar from "../components/navbar/Navbar";
+import Hero from "../components/hero/Hero";
+import Banner from "@/components/banner/Banner";
 
 export default function Home() {
 
@@ -23,6 +23,8 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+      <Hero />
+      <Banner />
     </div>
   );
 }
