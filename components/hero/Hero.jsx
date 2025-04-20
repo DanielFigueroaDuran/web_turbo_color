@@ -40,7 +40,7 @@ const Hero = () => {
                    lg:mt-0 ring-8 lg:ring-[15px] border-2 border-black rounded-md"
                   >
                         <Image
-                              src="/assets/img_cromauto.jpg"
+                              src="/assets/cromauto.png"
                               alt="Logo"
                               width={100}
                               height={100}
