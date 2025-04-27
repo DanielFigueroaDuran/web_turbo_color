@@ -19,7 +19,7 @@ const Navbar = () => {
 
       return (
             <>
-                  <header className="fixed w-full left-0 top-0 z-50 bg-white sm:bg-white border-b border-b-gray-400 py-4">
+                  <header className="fixed w-full left-0 top-0 z-50 bg-white sm:bg-white">
                         {/* Desktop navigation section */}
                         <nav className="container mx-auto flex items-center justify-between p-5 lg:py-5 lg:px-0">
                               {/* Nav Logo */}

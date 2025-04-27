@@ -4,27 +4,27 @@ import { FaAmazonPay, FaPaypal, FaShopify, FaSlack, FaTrello } from "react-icons
 export const companiesData = [
       {
             id: 1,
-            icon: <FaShopify />,
+            icon: <FaShopify size={28} />,
             name: "shopify"
       },
       {
             id: 2,
-            icon: <FaPaypal />,
+            icon: <FaPaypal size={28} />,
             name: "paypal"
       },
       {
             id: 3,
-            icon: <FaSlack />,
+            icon: <FaSlack size={28} />,
             name: "slack"
       },
       {
             id: 4,
-            icon: <FaTrello />,
+            icon: <FaTrello size={28} />,
             name: "trello"
       },
       {
             id: 5,
-            icon: <FaAmazonPay />,
+            icon: <FaAmazonPay size={28} />,
             name: "amazonPay"
       }
 ]

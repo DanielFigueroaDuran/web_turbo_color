@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Logo = () => {
       return (
-            <div className="flex item-center rounded-sm py-2 px-4 border-2 border-gray-400  shadow-2xl ">
+            <div className="flex item-center py-2 px-4">
                   <Image
                         src="/assets/logoTurboColor-removebg.png"
                         alt="Logo"
