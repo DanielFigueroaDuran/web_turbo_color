@@ -58,3 +58,21 @@ export const servicesData: servicesDataType[] = [
             color: "bg-green-200"
       }
 ];
+
+export const aboutData = [
+      {
+            id: 1,
+            num: "5+",
+            title: "Year of Experience"
+      },
+      {
+            id: 2,
+            num: "86",
+            title: "Happy Clents"
+      },
+      {
+            id: 3,
+            num: "32+",
+            title: "Business Partners"
+      },
+];

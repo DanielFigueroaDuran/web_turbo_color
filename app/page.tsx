@@ -8,6 +8,7 @@ import Carousel from "@/components/hero/Carousel";
 import Hero from "../components/hero/Hero";
 import Banner from "@/components/banner/Banner";
 import Services from "@/components/services/Services";
+import WhyUs from "@/components/banner/WhyUs";
 
 export default function Home() {
 
@@ -28,6 +29,7 @@ export default function Home() {
       <Hero />
       <Banner />
       <Services />
+      <WhyUs />
     </div>
   );
 }
