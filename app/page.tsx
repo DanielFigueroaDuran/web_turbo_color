@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Carousel from "@/components/hero/Carousel";
 import Hero from "../components/hero/Hero";
 import Banner from "@/components/banner/Banner";
+import Services from "@/components/services/Services";
 
 export default function Home() {
 
@@ -26,6 +27,7 @@ export default function Home() {
       {/* <Carousel /> */}
       <Hero />
       <Banner />
+      <Services />
     </div>
   );
 }

@@ -4,10 +4,10 @@ const Logo = () => {
       return (
             <div className="flex items-center py-2 px-4 ">
                   <Image
-                        src="/assets/logoTurboColor-removebg.png"
+                        src="/assets/logoTurboColorBg.png"
                         alt="Logo"
-                        width={100}
-                        height={100}
+                        width={200}
+                        height={200}
                         priority
                         className="w-full h-auto"
                   />

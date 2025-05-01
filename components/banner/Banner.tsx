@@ -47,7 +47,7 @@ const Banner = () => {
                         <Slider {...setting}>
                               {companiesData.map(company => (
                                     <div
-                                          className="flex text-center space-x-3"
+                                          className="flex text-center space-x-3 cursor-pointer"
                                           key={company.id}
                                     >
                                           <span className="inline-block text-2xl font-bold">

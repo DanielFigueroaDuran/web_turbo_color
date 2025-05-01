@@ -3,7 +3,7 @@ import { BsArrowRightCircle } from "react-icons/bs";
 
 const Hero = () => {
       return (
-            <div className="min-h-[80vh] mx-auto container flex flex-col justify-center border-2 lg:flex-row lg:justify-between items-center">
+            <div className="min-h-[80vh] mx-auto container flex flex-col justify-center lg:flex-row lg:justify-between items-center">
                   {/* Hero content section */}
                   <div className="space-y-8">
                         <h1
