@@ -26,7 +26,7 @@ const Hero = () => {
                         <button
                               data-aos='fade-up'
                               data-aos-delay='1000'
-                              className="bg-blue-400 px-6 py-2 shadow-[5px_5px_0px_0px_rgba(0,0,0)] rounded-md cursor-pointer"
+                              className="bg-blue-300 px-6 py-2 shadow-[5px_5px_0px_0px_rgba(0,0,0)] rounded-md cursor-pointer"
                         >
                               Cromauto
                         </button>
