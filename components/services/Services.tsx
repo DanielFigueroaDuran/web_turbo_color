@@ -3,7 +3,7 @@ import ServicesCard from "./ServicesCard"
 
 const Services = () => {
       return (
-            <div className="min-h-screen container flex flex-col justify-center items-center gap-10 py-10">
+            <div className="min-h-screen mx-auto container flex flex-col justify-center items-center gap-10 py-10">
                   <h1
                         className="text-3xl lg:text-5xl font-bold text-center w-full lg:w-3/4"
                         data-aos="fade-up"
