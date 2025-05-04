@@ -6,16 +6,25 @@ import rupes from "../../public/assets/rupes.png";
 import WebCard from "./WebCard";
 import DevCard from "./DevCard";
 
-const Projects = () => {
+const Companies = () => {
+
       return (
             <div className="min-h-screen mx-auto container flex flex-col items-center justify-center mt-16 mb-8">
-                  <h2 className="text-4xl lg:text-5xl font-bold text-center w-full lg:w-3/4">See Our Project</h2>
-                  <p className="text-sm lg:text-base w-full lg:w-3/4 text-center mt-5">
+                  <h2
+                        data-aos="fade-up"
+                        className="text-4xl lg:text-5xl font-bold text-center w-full lg:w-3/4"
+                  >
+                        Companies
+                  </h2>
+                  <p
+                        data-aos="fade-up"
+                        className="text-sm lg:text-base w-full lg:w-3/4 text-center mt-5"
+                  >
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                         Voluptates veritatis modi ex minus totam nisi officia recusandae
                         dolores, sed velit?
                   </p>
-                  <div>
+                  <div className="py-14">
                         <WebCard
                               project="Octoral"
                               img={octoral}
@@ -50,4 +59,4 @@ const Projects = () => {
       )
 }
 
-export default Projects
+export default Companies

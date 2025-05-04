@@ -9,7 +9,8 @@ import Hero from "../components/hero/Hero";
 import Banner from "@/components/banner/Banner";
 import Services from "@/components/services/Services";
 import WhyUs from "@/components/banner/WhyUs";
-import Projects from "@/components/projects/Projects";
+import Companies from "@/components/companies/Companies";
+import Contact from "@/components/contact/Contact";
 
 export default function Home() {
 
@@ -31,7 +32,8 @@ export default function Home() {
       <Banner />
       <Services />
       <WhyUs />
-      <Projects />
+      <Companies />
+      <Contact />
     </div>
   );
 }
