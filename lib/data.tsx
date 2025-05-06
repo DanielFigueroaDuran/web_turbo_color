@@ -23,7 +23,7 @@ export const companiesData = [
       },
       {
             id: 3,
-            icon: "/assets/indasa.png",
+            icon: "/assets/indasas.png",
             name: "Indasa"
       },
       {

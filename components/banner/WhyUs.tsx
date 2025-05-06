@@ -3,9 +3,9 @@ import { aboutData } from "@/lib/data"
 
 const WhyUs = () => {
       return (
-            <div className="min-h-screen mx-auto flex flex-col items-center lg:text-start bg-gray-800">
+            <div className="min-h-auto mx-auto flex flex-col items-center lg:text-start sm:text-center bg-gray-800">
                   <h1
-                        className="text-6xl font-bold text-white w-full lg:w-1/3 py-10"
+                        className="text-6xl text-center font-bold text-white w-full lg:w-1/3 py-10"
                         data-aos="fade-up"
                   >
                         Why Us?
