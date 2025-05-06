@@ -4,7 +4,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Carousel from "@/components/hero/Carousel";
 import Hero from "../components/hero/Hero";
 import Banner from "@/components/banner/Banner";
 import Services from "@/components/services/Services";

@@ -1,4 +1,3 @@
-import { FaAmazonPay, FaPaypal, FaShopify, FaSlack, FaTrello } from "react-icons/fa"
 
 export const headerData = [
       { title: "INICIO", href: "/" },
