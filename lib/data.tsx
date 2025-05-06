@@ -42,19 +42,19 @@ export const servicesData: servicesDataType[] = [
       {
             id: 1,
             icon: <MdOutlineWeb size={45} />,
-            title: "Web Desing",
+            title: "Services",
             color: "bg-blue-400"
       },
       {
             id: 2,
             icon: <FaCode size={45} />,
-            title: "Development",
+            title: "Services",
             color: "bg-secondary"
       },
       {
             id: 3,
             icon: <GiShoppingBag size={45} />,
-            title: "Ecommerce",
+            title: "Services",
             color: "bg-green-200"
       }
 ];

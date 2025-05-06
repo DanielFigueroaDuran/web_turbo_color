@@ -8,8 +8,8 @@ const ServicesCard = ({ id, icon, title, color }: servicesDataType) => {
             >
                   <div className="bg-white inline-block px-3 py-3 border-2 border-black rounded-full ">{icon}</div>
                   <div className="space-y-4">
-                        <h1 className="text-3xl font-bold">{title}</h1>
-                        <p>
+                        <h1 className="text-3xl text-center font-bold">{title}</h1>
+                        <p className="text-center">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur,
                               nisi fuga beatae, libero incidunt quisquam perspiciatis saepe inventore alias
                               expedita nemo facere cumque quasi similique. Culpa consectetur in quis.
