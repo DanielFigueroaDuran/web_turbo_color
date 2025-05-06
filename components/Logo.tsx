@@ -9,7 +9,7 @@ const Logo = () => {
                         width={200}
                         height={200}
                         priority
-                        className="w-full h-auto"
+                        className="w-full h-full"
                   />
             </div>
       )

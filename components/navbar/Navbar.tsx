@@ -19,11 +19,11 @@ const Navbar = () => {
 
       return (
             <>
-                  <header className="fixed w-full left-0 top-0 z-50 bg-white sm:bg-white">
+                  <header className="fixed w-full left-0 top-0 z-50 bg-white sm:bg-white border-2">
                         {/* Desktop navigation section */}
                         <nav className="container mx-auto flex items-center justify-between p-5 lg:py-5 lg:px-0">
                               {/* Nav Logo */}
-                              <div className="px-6 h-16">
+                              <div className="">
                                     <Link href='/' className="flex items-center">
                                           <Logo />
                                     </Link>
