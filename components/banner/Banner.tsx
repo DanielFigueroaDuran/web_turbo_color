@@ -42,24 +42,23 @@ const Banner = () => {
       };
 
       return (
-            <div className="bg-black text-white py-4 w-full">
+            <div className="bg-black text-white py-4 w-full mt-5">
                   <div className="">
                         <Slider {...setting}>
                               {companiesData.map(company => (
                                     <div
-                                          className="flex text-center space-x-3 cursor-pointer"
+                                          className="text-center px-2 cursor-pointer"
                                           key={company.id}
                                     >
-                                          <span className="inline-block text-2xl font-bold">
+                                          <div className="w-[100px] h-[100px] flex items-center mx-auto ">
                                                 <Image
-                                                      className="w-full h-auto rounded-sm"
                                                       src={company.icon as string}
                                                       alt="icon"
-                                                      width={40}
-                                                      height={40}
+                                                      width={500}
+                                                      height={500}
+                                                      className="object-cover rounded-sm"
                                                       priority />
-                                          </span>
-                                          <h1>{company.name}</h1>
+                                          </div>
                                     </div>
                               ))}
                         </Slider>
